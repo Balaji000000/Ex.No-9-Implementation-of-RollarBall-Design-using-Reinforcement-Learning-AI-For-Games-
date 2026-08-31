@@ -1,8 +1,11 @@
 # Ex.No: 9  Implementation of RollarBall Design using Reinforcement Learning 
+
 ### DATE:                                                                            
 ### REGISTER NUMBER : 
+
 ### AIM: 
 To write a program to design RollerBall and train the Rollerbal by Reinforcement learning  in Unity 
+
 ### Installation Required 
 ```
 1.Check sytem have python 3.10.0  ( if any higher version then uninstall and install python3.10.0)
@@ -19,7 +22,7 @@ To write a program to design RollerBall and train the Rollerbal by Reinforcement
 pip show mlagents 
 mlagents-learn --help
 ```
-### Algorithm:
+### PROCEDURE:
 ```
 1.Create a new 3D Unity project
 2.Create a plane → Right-click Hierarchy > 3D Object > Plane
@@ -48,7 +51,7 @@ mlagents-learn --help
 tensorboard --logdir results
 16 Get the results by running the localhost on specific port ( shown in tensorboard)
 ```  
-### Program:
+### PROGRAM:
 ```
 1. File : RollerAgent.cs 
 
@@ -157,7 +160,9 @@ behaviors:
     max_steps: 500000
     time_horizon: 64
     summary_freq: 10000
-### Output:
+
+```
+### OUTPUT:
 
 
 
@@ -167,5 +172,5 @@ behaviors:
 
 
 
-### Result:
+### RESULT:
 Thus the AI character was trained using reinforcement learning.
